@@ -103,7 +103,15 @@ h2 {
     border-radius: 20px;
     border: 1px solid black;
     margin-bottom: 20px;
+    background-color: #000d49;
+    color: white;
+    cursor: pointer;
 }
+
+    .addToCart:active{
+        background-color: white;
+        color: #000d49;
+    }
 
 .adjustItem{
     font-size: 20px;
@@ -123,7 +131,7 @@ h2 {
     font-size: 20px;
     padding: 0px 5px;
     margin: 5px 0;
-    
+    cursor: pointer;
 }
 
 .addItem {
@@ -131,15 +139,30 @@ h2 {
     background-color: rgb(23, 168, 23);
 }
 
+    .addItem:active {
+        background-color: white;
+        color: rgb(23, 168, 23);
+    }
+
 .removeItem {
     color: white;
     background-color: rgb(226, 168, 61);
 }
 
+    .removeItem:active {
+        background-color: white;
+        color: rgb(226, 168, 61);
+    }
+
 .deleteItem {
     color: white;
     background-color: rgb(223, 55, 55);
 }
+
+    .deleteItem:active{
+        color: rgb(223, 55, 55);
+        background-color: white;
+    }
 
 .price {
     font-size: large;
@@ -166,4 +189,8 @@ i{
 .quantity, .equivalentPrice {
     text-align: center;
     width: 50px;
+}
+
+p {
+    user-select: none;
 }
