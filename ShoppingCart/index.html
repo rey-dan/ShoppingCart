@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <h1>Shopping Cart</h1>
+    <div class="mainContainer">
+        <div class="container">
+            <h2>Items for Sale</h2>
+            <ul id="listItems">
+                <li>
+                    <div class="item">
+                        <p class="itemName">Cap</p>
+                        <img src="https://img.fruugo.com/product/2/80/230264802_max.jpg" alt="Cap">
+                        <p class="price">$20</p>
+                    </div>
+                    <button class="addToCart" id="0">Add to Cart</button>
+                </li>
+                <li>
+                    <div class="item">
+                        <p class="itemName">Tshirt</p>
+                        <img src="https://cdn.shopify.com/s/files/1/1002/7150/products/New-Mockups---no-hanger---TShirt-Yellow.jpg?v=1639657077" alt="tshirt">
+                        <p class="price">$50</p>
+                        <button class="addToCart" id="1">Add to Cart</button>
+                    </div>
+                </li>
+                <li>
+                    <div class="item">
+                        <p class="itemName">Shorts</p>
+                        <img src="https://contents.mediadecathlon.com/p1985538/6857946ffb8dd831ed1aec6281115426/p1985538.jpg" alt="shorts">
+                        <p class="price">$30</p>  
+                        <button class="addToCart" id="2">Add to Cart</button>  
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="container">
+            <h2>Cart</h2>
+            <ol id="cartItems">
+            </ol>
+            <div id="totalAmount">
+                <p>Total Amount:</p>
+                <p id="overallAmount">$0</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

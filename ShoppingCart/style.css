@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background-image: linear-gradient(0deg, #000d47, #4d6dff, #db322a);
+    min-height: 100vh;
+}
+
+img{
+    object-fit: contain;
+    height: 150px;
+    width: 150px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+
+.mainContainer{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+ul, ol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+}
+
+ol {
+    flex-direction: column-reverse;
+}
+
+li {
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px 20px;
+    margin: 5px;
+    background: linear-gradient(180deg, #d0fff7, #a1dbff);
+}
+
+ol li{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    text-align: center;
+}
+
+#totalAmount{
+    color: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+h1 {
+    margin: 40px 20px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: x-large;
+    color: rgb(227, 232, 255);
+}
+
+.itemName {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.addToCart {
+    width: 100%;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.adjustItem{
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+}
+
+.quantity {
+    text-align: center;
+    width: 50px;
+    margin: 5px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.addItem, .removeItem, .deleteItem {
+    font-size: 20px;
+    padding: 0px 5px;
+    margin: 5px 0;
+    
+}
+
+.addItem {
+    color: white;
+    background-color: rgb(23, 168, 23);
+}
+
+.removeItem {
+    color: white;
+    background-color: rgb(226, 168, 61);
+}
+
+.deleteItem {
+    color: white;
+    background-color: rgb(223, 55, 55);
+}
+
+.price {
+    font-size: large;
+}
+
+.equivalentPrice {
+    font-size: larger;
+    font-weight: bold;
+}
+
+#overallAmount {
+    font-size: xx-large;
+}
+
+i{
+    pointer-events: none;
+}
+
+.itemName{
+    text-align: left;
+    width: 100px;
+}
+
+.quantity, .equivalentPrice {
+    text-align: center;
+    width: 50px;
+}

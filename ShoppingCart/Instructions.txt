@@ -1,0 +1,10 @@
+Watch: https://www.youtube.com/watch?v=iWOYAxlnaww&list=PL4cUxeGkcC9haFPT7J25Q9GRB_ZkFrQAc
+
+After completing the videos, create a single-page shopping cart using HTML, CSS, and vanilla JavaScript.
+
+Required Functionalities:
+1. Display a sample list of items for sale
+2. A user can add an item, update the quantity of the items and delete the items.
+3. Display the total amount for all items
+
+Be-ready to explain your work in the future
