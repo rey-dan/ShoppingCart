@@ -154,18 +154,22 @@ function updateTotal() {
     }
     
     totalAmount.innerText = "$" + total;
+    updateLocal();
+}
 
+function updateLocal (){
     // update localStorage
     if(localStorage.getItem('cartList') === null){
         cart = {};
     } else {
-        localStorage.setItem('cartList', JSON.stringify(cart));   
+        localStorage.setItem('cartList', JSON.stringify(cart));     
     }
 }
 
 function getCartItems(){
     if(localStorage.getItem("cartList") === null){
         cart = {};
+        localStorage.setItem('cartList', JSON.stringify(cart));
     } else {
         cart = JSON.parse(localStorage.getItem('cartList'));
     }
