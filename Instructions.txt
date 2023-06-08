@@ -8,3 +8,7 @@ Required Functionalities:
 3. Display the total amount for all items
 
 Be-ready to explain your work in the future
+
+===========
+Live-site: https://roaring-custard-b1ff9d.netlify.app
+Repository: https://github.com/rey-dan/ShoppingCart

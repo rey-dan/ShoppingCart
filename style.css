@@ -11,6 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-image: linear-gradient(0deg, #000d47, #4d6dff, #db322a);
     min-height: 100vh;
+    user-select: none;
 }
 
 img{
@@ -189,8 +190,4 @@ i{
 .quantity, .equivalentPrice {
     text-align: center;
     width: 50px;
-}
-
-p {
-    user-select: none;
 }
